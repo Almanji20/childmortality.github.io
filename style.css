@@ -1,0 +1,88 @@
+body {
+    background: #a2cee0;
+    Padding: 32px;
+    font-family: novecento-slab, serif;
+    font-weight: 500;
+    font-style: normal;
+}
+
+img {
+    width: 100%;
+}
+
+button {
+    cursor: pointer;
+}
+
+.intruduction {
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    background: #FCFBF2;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.introduction p {
+    padding: 50px;
+    font-size: 5vw;
+    color: #000000;
+}
+
+.introduction button {
+    background: none;
+    border: none;
+    background: #a2cee0;
+    color: #FCFBF2;
+    padding: 22px;
+    border-radius: 5px;
+    font-size: 22px;
+}
+
+.filters {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 44px;
+}
+
+.filter-button-group button {
+    border: none;
+    border-radius: 5px;
+    padding: 12px 20px;
+    background:  #FCFBF2;
+    font-size: 24px;
+    margin-right: 8px;
+    transition: background 0.5s;
+}
+
+.filter-button-group button:hover {
+    background:  #67c16e;
+}
+
+.filter-dropdown {
+    border: none;
+    border-radius: 5px;
+    padding: 12px 20px;
+    font-size: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
