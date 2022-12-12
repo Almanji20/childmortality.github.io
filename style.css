@@ -1,14 +1,16 @@
 :root{
     --link:#000;
     --hover:#b00;
-    --main:#000;
-    --bg:#f0f0f0;
-    --size:99vmin;
+    --main:#ffffff;
+    --bg:#0a0b38;
+    --size:200vmin;
     --ratio: 1/1.1;
 }
 
 
+
 body {
+    position: absolute;
     margin: 0
     padding: 0;
     overflow: hidden;
@@ -18,12 +20,10 @@ body {
     color: var(--main);
 }
 
-a{
-    text-decoration: none;
-    color: #000;
-}
+
 
 header{
+    resize: both;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -32,6 +32,7 @@ header{
 }
 
 .container{
+    resize: both;
     width: calc(var(--size)*var(--ratio));
     margin: 0 auto;
 }
@@ -50,17 +51,7 @@ header{
     overflow: hidden;
     font-size: 2.2rem;
     text-transform: lowercase;
-    font-weight: 100;
-}
-
-
-.btn{
-    display: inline-block;
-    padding: 10px 20px;
-    text-align: center;
-    border: 1px solid #000;
-    cursor: pointer;
-    transition: all 300ms ease-in-out;
+    font-weight: 100
 }
 }
 
@@ -83,23 +74,22 @@ header{
 
 .filter-button-group button {
     border: none;
-    border-radius: 5px;
-    padding: 12px 20px;
+    border-radius: 2px;
+    padding: 10px 15px;
     background:  #FCFBF2;
-    font-size: 24px;
+    font-size: 10px;
     margin-right: 8px;
     transition: background 0.5s;
 }
 
-.filter-button-group button:hover {
-    background:  #67c16e;
-}
 
 .filter-dropdown {
     border: none;
     border-radius: 5px;
-    padding: 12px 20px;
-    font-size: 20px;
+    text-align: center;
+    padding: 5px 10px;
+    margin-right: 8px;
+    font-size:18px;
 }
 
 
