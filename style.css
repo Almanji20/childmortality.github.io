@@ -34,17 +34,7 @@ button {
     color: #000000;
 }
 
-/*
-.introduction button {
-    background: none;
-    border: none;
-    background: #7fa6b5;
-    color: #FCFBF2;
-    padding: 22px;
-    border-radius: 5px;
-    font-size: 22px;
-}
-*/
+
 
 .filters {
     display: flex;
