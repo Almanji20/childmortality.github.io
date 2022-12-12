@@ -53,10 +53,8 @@ header{
 
 .introduction p {
     padding: 10px;
-    color: #c18ce8;
     text-align: center;
     font-size: 1vw;
-/*    font-color: #c18ce8;*/
 }
 
 .filter-dropdown {
