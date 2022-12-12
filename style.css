@@ -49,7 +49,7 @@ header{
     text-align: center;
     overflow: hidden;
     font-size: 2.2rem;
-    text-transform: uppercase;
+    text-transform: lowercase;
     font-weight: 100;
 }
 
@@ -64,31 +64,6 @@ header{
 }
 }
 
-/*
-.intruduction {
-    width: 100%;
-    text-align: center;
-    overflow: hidden;
-*/
-/*    height: 100vh;*/
-/*
-    position: absolute;
-    font-size: 2.2rem;
-    text-transform: uppercase;
-    font-weight: 700;
-*/
-/*
-    top: 0;
-    left: 0;
-*/
-/*    z-index: 1;*/
-/*
-    background: #FCFBF2;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-*/
 
 
 .introduction p {
