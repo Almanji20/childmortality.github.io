@@ -10,7 +10,6 @@
 
 
 body {
-    position: absolute;
     margin: 0
     padding: 0;
     overflow: hidden;
@@ -23,7 +22,6 @@ body {
 
 
 header{
-    resize: both;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -32,7 +30,6 @@ header{
 }
 
 .container{
-    resize: both;
     width: calc(var(--size)*var(--ratio));
     margin: 0 auto;
 }
@@ -60,7 +57,7 @@ header{
 .introduction p {
     padding: 10px;
     text-align: center;
-    font-size: 3vw;
+    font-size: 1vw;
     color: #000000;
 }
 
@@ -72,25 +69,28 @@ header{
     margin-bottom: 44px;
 }
 
-.filter-button-group button {
-    border: none;
-    border-radius: 2px;
-    padding: 10px 15px;
-    background:  #FCFBF2;
-    font-size: 10px;
-    margin-right: 8px;
-    transition: background 0.5s;
-}
-
 
 .filter-dropdown {
     border: none;
     border-radius: 5px;
     text-align: center;
     padding: 5px 10px;
-    margin-right: 8px;
+    margin-top: 50px;
+    margin-right: -500px;
+    margin-left: 600px;
     font-size:18px;
 }
+
+.canada{
+   margin-left: 350px;
+    font-size: 1.5vw;
+}
+
+.usa {
+    float: right;
+    
+}
+
 
 
 
