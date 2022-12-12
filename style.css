@@ -34,6 +34,7 @@ button {
     color: #000000;
 }
 
+/*
 .introduction button {
     background: none;
     border: none;
@@ -43,6 +44,7 @@ button {
     border-radius: 5px;
     font-size: 22px;
 }
+*/
 
 .filters {
     display: flex;
@@ -53,7 +55,7 @@ button {
 .filter-button-group button {
     border: none;
     border-radius: 5px;
-    padding: 20px 20px;
+    padding: 12px 20px;
     background:  #FCFBF2;
     font-size: 24px;
     margin-right: 8px;
