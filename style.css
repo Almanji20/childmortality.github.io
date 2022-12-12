@@ -7,8 +7,6 @@
     --ratio: 1/1.1;
 }
 
-
-
 body {
     margin: 0
     padding: 0;
@@ -55,9 +53,10 @@ header{
 
 .introduction p {
     padding: 10px;
+    color: #c18ce8;
     text-align: center;
     font-size: 1vw;
-    color: #000000;
+/*    font-color: #c18ce8;*/
 }
 
 .filter-dropdown {
@@ -65,22 +64,29 @@ header{
     border-radius: 5px;
     text-align: center;
     padding: 5px 10px;
-    margin-top: 50px;
-    margin-right: -500px;
-    margin-left: 600px;
+    margin-top: 20px;
+    margin-right: -60px;
+    margin-left: 120px;
     font-size:18px;
 }
 
+
 .canada{
+    display: inline;
     border: none;
+    float: left;
    margin-left: 350px;
-    font-size: 1.5vw;
+    margin-top: 100px;
+    font-size: 1.2vw;
 }
 
 .usa {
-    display: flex;
+    display: inline;
     border: none;
     float: right;
+    margin-right: 250px;
+    margin-top: 100px;
+    font-size: 1.2vw;
 }
 
 
