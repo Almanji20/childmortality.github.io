@@ -53,22 +53,12 @@ header{
 }
 
 
-
 .introduction p {
     padding: 10px;
     text-align: center;
     font-size: 1vw;
     color: #000000;
 }
-
-
-
-.filters {
-    display: flex;
-    justify-content: space-between;
-    margin-bottom: 44px;
-}
-
 
 .filter-dropdown {
     border: none;
@@ -82,13 +72,15 @@ header{
 }
 
 .canada{
+    border: none;
    margin-left: 350px;
     font-size: 1.5vw;
 }
 
 .usa {
+    display: flex;
+    border: none;
     float: right;
-    
 }
 
 
