@@ -1,2 +1,2 @@
-# viruses.github.io
+# childmortality.github.io
 Final project GD3 interactive
